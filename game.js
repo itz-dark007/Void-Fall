@@ -8,7 +8,7 @@ const MenuScene = {
         this.cameras.main.setBackgroundColor('#0b0b14');
 
         
-        this.add.text(W / 2, H / 2 - 100, 'GravityShift', {
+        this.add.text(W / 2, H / 2 - 100, 'VoidFall', {
             fontFamily: 'Arial',
             fontSize: '64px',
             color: '#ffffff',
@@ -1760,3 +1760,4 @@ function resetAll(scene){
     scene.physics.world.resume();
     scene.scene.restart();
 }
+
